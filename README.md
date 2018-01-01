@@ -2,7 +2,7 @@
 A desktop application written in Python to store and manage collection of books based on tkinter and SQLite
 
 #### A program that stores the following information on books:
-Title, Year
+Title, Year,
 Author, ISBN
 
 #### User can:
