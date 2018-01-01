@@ -108,7 +108,7 @@ list1.bind('<<ListboxSelect>>', get_selected_row)             # Binding the List
 
 sb2 = Scrollbar(window, orient = 'horizontal')                # Creates a horizontal scrollbar for the Listbox
 sb2.grid(row = 7, column = 0, columnspan = 2, ipadx = 70)     # Sets position of the scrollbar
-list1.configure(xscrollcommand = sb2.set)                     # Configuring the Listbox for the vertical scrollbar
+list1.configure(xscrollcommand = sb2.set)                     # Configuring the Listbox for the horizontal scrollbar
 sb2.configure(command = list1.xview)                          # Configuring the scrollbar for the Listbox
 list1.bind('<<ListboxSelect>>', get_selected_row)             # Binding the Listbox to work with the get_selected_row function
 
